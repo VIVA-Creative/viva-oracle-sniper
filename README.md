@@ -6,6 +6,24 @@ Polls Oracle Cloud for an ARM VM slot and creates it the moment one opens up. Ru
 
 ---
 
+## Two ways to do this
+
+### Option A — AI-assisted (recommended)
+
+Two Claude sessions: one that does the work on your machine, one that explains things in plain English alongside you.
+
+**Claude Code** (does the work) — if you don't have it:
+→ https://claude.com/product/claude-code — install it, then `cd` into this repo.
+Once it's running, open [CLAUDE_CODE_INSTRUCTIONS.md](CLAUDE_CODE_INSTRUCTIONS.md), paste the entire contents into your Claude Code session, and follow its lead.
+
+**Claude chat** (optional explainer) — open a new conversation at https://claude.ai, paste the contents of [CHAT_CLAUDE_INSTRUCTIONS.md](CHAT_CLAUDE_INSTRUCTIONS.md), and keep it open alongside your Claude Code session. Ask it anything that looks confusing or alarming.
+
+### Option B — Manual (run the scripts yourself)
+
+Follow the Quickstart section below. You'll need to be comfortable with Terminal.
+
+---
+
 ## What you get
 
 One `VM.Standard.A1.Flex` instance in your Oracle Free Tier tenancy:
